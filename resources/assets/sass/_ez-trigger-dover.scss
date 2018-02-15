@@ -1,0 +1,113 @@
+// _ez-trigger-dover
+.ez-trigger-dover-row {
+    color: white;
+    font-family: Comfortaa;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    /* padding: 1.35rem 0 0rem; */
+    padding: 0;
+    &.ez-trigger-dover-row-header { 
+        display: flex;
+        justify-content: center;
+        //padding-top: 1.75rem; padding-bottom: 0;
+        padding: 2.25rem 0 2rem;
+        h5 {
+            //font-family: Marck Script;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+    }
+    .ez-trigger-dover-col {
+        .ez-trigger-dover-col-icon {
+            font-size: 2.5rem;
+            i,svg {
+                font-size: 2rem;
+            }
+        }
+        .ez-trigger-dover-card {
+            padding-bottom: 1rem;
+            &.ez-trigger-dover-card-kachest {
+                .ez-trigger-dover-col-icon {
+                    //background-color: rgba(255, 187, 51, 0.85);
+                    //background-color: rgba(187,45,52,1);
+                    background-color: rgba(176,28,85,1);
+                }
+            }
+            &.ez-trigger-dover-card-brand {
+                .ez-trigger-dover-col-icon { 
+                    //background-color: rgba(51, 181, 229, 0.55);
+                    background-color: rgba(179,74,133, 1);
+                }
+            }
+            &.ez-trigger-dover-card-tseny {
+                .ez-trigger-dover-col-icon {
+                    //background-color: rgba(170, 102, 204, 0.55);
+                    //background-color: rgba(106,61,138, 1);
+                    background-color: rgba(86,55,147, 1);
+                }
+            }
+            &.ez-trigger-dover-card-dostavka {
+                .ez-trigger-dover-col-icon {
+                    background-color: rgba(48,47,165, 1);
+                }
+            }
+            .card-body {
+                padding-top: 1rem;
+                padding-bottom: 0;
+                .card-text {
+                    text-transform: none;
+                }  
+            }
+        }                
+    }
+}       
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .ez-trigger-dover-card .card-body .card-text {
+        font-size: 0.8rem!important;
+    }
+}
+
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+
+}    
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ez-trigger-dover-card .card-body .card-text {
+        font-size: 0.75rem!important;
+    }
+    .ez-trigger-dover-row .ez-trigger-dover-col .ez-trigger-dover-col-icon i, 
+    .ez-trigger-dover-row .ez-trigger-dover-col .ez-trigger-dover-col-icon svg {
+        font-size: 1.85rem;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .ez-trigger-dover-card .card-body .card-text {
+        font-size: 0.7rem!important;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
+

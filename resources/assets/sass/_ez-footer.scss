@@ -1,0 +1,198 @@
+.ez-footer {
+        font-family: Comfortaa;
+        font-weight: 400;
+        margin-top: 0!important;
+      background: -webkit-linear-gradient(bottom left, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+      background: -o-linear-gradient(bottom left, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+      background: linear-gradient(to top right, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+        .ez-footer-cont-x {
+            .ez-footer-cont {
+                //background-color: rgba(54,101,139,1);
+                background-color: transparent;
+                padding: 0.5rem;
+                .ez-footer-row {
+                    padding-top: 0!important;
+                    margin-top: 0!important;
+                    .ez-footer-info {
+                        padding: 0 1.5rem;
+                        margin-top: 1rem;
+                        h6 {
+                            font-size: 1rem!important;
+                        }
+                        .ez-footer-info-logo {
+                            /* display: flex;
+                            justify-content: center;
+                            padding: 0 5rem;
+                            img {
+                                margin: auto;
+                            } */
+                        }
+                        .ez-footer-info-header {
+                            font-size: 1rem!important;
+                            text-align: center!important;
+                            .ez-footer-info-header-40 {
+                                font-size: 1.25rem!important;
+                                font-style: italic;
+                                color: red!important;
+                            }
+                             a:hover {
+                                 color: rgba(226,49,188,1)!important;
+                                 font-style: bold;
+                             }
+                        }
+                        .ez-footer-info-dostavka {
+                            .ez-footer-info-dostavka-header {
+                                justify-content: center;
+                                text-transform: uppercase;
+                                border-top: 1px solid white;
+                                h5 {
+                                    font-size: 1.1rem!important;
+                                }
+                            }    
+                            .ez-footer-info-dostavka-body {
+                                font-size: 0.75rem!important;
+                                text-align: left!important;   
+                                padding-left: 1rem;
+                                ul {
+                                    list-style: disc outside;
+                                }
+                            }
+                            .ez-footer-info-dostavka-free {
+                                font-size: 0.5rem;
+                            }
+                        }
+                    }
+                    .ez-footer-yandex-map {
+                        display: flex!important;
+                        justify-content: center!important;
+                        min-height: 15rem;
+                    }
+                    .ez-footer-contact {
+                        -webkit-transition: all 1s ease-out;
+                        -moz-transition: all 1s ease-out;
+                        -ms-transition: all 1s ease-out;
+                        transition: all 1s ease-out;
+                        .ez-footer-contact-header {
+                            font-size: 1.1rem!important;
+                            text-align: left!important;   
+                            padding-left: 3rem;
+                        }
+                        .ez-footer-contact-body {
+                            font-size: 0.85rem!important;
+                            text-align: left!important;   
+                            padding-left: 1rem;
+                            p {
+                                margin-bottom: 0.5rem;
+                            }
+                            .ez-footer-contact-addr a,
+                            .ez-footer-contact-phone a,
+                            .ez-footer-contact-mail a {
+                                &:hover {
+                                    color: rgba(226,49,188,1)!important;
+                                    //font-weight: 900;
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+                    /* .ez-footer-social {
+                            a {
+                                width: 4rem;
+                                height: 4rem;
+                                .ez-footer-social-fa {
+                                    font-size: 3rem!important;
+                                    line-height: 4rem!important;
+                                }
+                            }
+                        } */    
+                }    
+            }
+        }
+    }    
+
+.ez-footer .ez-footer-contact .ez-footer-contact-body .ez-footer-contact-body-bank_card_all img.img-fluid {
+    width:70%;
+}
+.ez-footer .footer-copyright .container-fluid {
+    font-size: 0.6rem!important;
+}
+
+.ez-footer-copyright {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    &:hover {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+.ez-footer-ne-offerta {
+  font-size: 0.65rem;
+  color: rgba(255,255,255,0.7);
+}
+
+/* 
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px
+*/
+
+@media (max-width: 415px) {
+  .ez-footer {
+    padding-top: 0!important;
+    .ez-footer-cont {
+      
+    }
+
+//.ez-footer-row .ez-footer-contact .ez-footer-contact-body {
+
+    .ez-footer-cont-x {
+      .ez-footer-cont {
+        padding-bottom: 0px!important;    
+          .ez-footer-row  {
+          margin-bottom: 0!important;
+          .ez-footer-info {
+            margin-top: 0!important;
+            .ez-footer-info-header {
+              font-size: 0.75rem !important;
+              line-height: 1;
+            }
+          }
+          .ez-footer-contact {
+            padding-bottom: 0.5rem!important;
+            .ez-footer-contact-body {
+              font-size: 0.75rem!important;
+              p {
+                margin-bottom: 0!important;  
+                i,svg {
+                  padding-bottom: 0!important;  
+                }
+              }
+            }  
+          }
+        }
+      }
+    }
+    .ez-footer-header {
+      padding-top: 1rem!important;
+      padding-bottom: 0!important;
+      h4 {
+        font-size: 1rem;
+      }
+    }
+    .ez-footer-info-hr {
+      margin-top: 0!important;
+      margin-bottom: 0!important;
+    }
+  }  
+  .ez-footer-ne-offerta {
+    font-size: 0.5rem;
+  }  
+}

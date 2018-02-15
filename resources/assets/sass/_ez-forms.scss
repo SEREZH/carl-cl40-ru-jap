@@ -1,0 +1,51 @@
+/* _ez-forms */
+
+.ez-callme-dialog-content-header {
+  background: -webkit-linear-gradient(bottom left, rgba(213, 15, 61, 0.82), rgba(13, 17, 198, 0.87) 100%)!important;
+  background: -o-linear-gradient(bottom left, rgba(213, 15, 61, 0.82), rgba(13, 17, 198, 0.87) 100%)!important;
+  background: linear-gradient(to top right, rgba(213, 15, 61, 0.82), rgba(13, 17, 198, 0.87) 100%)!important;
+ } 
+
+.ez-callme-dialog-content-header {
+  p {
+    text-transform: uppercase;;
+  }
+}
+
+.ez-callme-form-wrapper-body-item {
+  i,svg {
+    font-size: 1.75rem!important;
+    //color: rgba(83,148,255,1)!important;
+    color: rgba(176,28,85,1)!important;
+  }
+  .ez-form-control {
+    font-size: 1.25rem!important;        
+  }
+}
+.ez-callme-form-wrapper-body-item-btn {
+  //border-color: rgba(83,148,255,1)!important;
+  background-color: rgba(48,47,165, 1)!important;
+}
+
+/* 
+background-color: rgba(176,28,85,1);
+background-color: rgba(179,74,133, 1);
+background-color: rgba(86,55,147, 1);
+background-color: rgba(48,47,165, 1);
+ */
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .ez-callme-dialog-content-header {
+    p {
+      font-size: 0.7rem !important;
+      font-weight: 500;
+    }  
+  }
+}
+
+@media (max-width: 767px) {
+  .ez-callme-dialog-content-header {
+    padding: 0.75rem 0.5rem!important;
+  }
+}  

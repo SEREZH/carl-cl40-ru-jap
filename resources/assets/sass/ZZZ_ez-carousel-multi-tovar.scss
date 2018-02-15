@@ -1,0 +1,20 @@
+///_ez-carousel-multi-tovar.scss
+.ez-carousel-card-body {
+  background: -webkit-linear-gradient(bottom left, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+  background: -o-linear-gradient(bottom left, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+  background: linear-gradient(to top right, rgba(213, 15, 61, 0.72), rgba(13, 17, 198, 0.77) 100%)!important;
+  //background: linear-gradient(to top right, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%)!important;
+  .card-title {
+    border-bottom: 1px solid rgba(255,255,255,0.7)!important;
+  }
+}
+
+@media (max-width: 415px) {
+.ez-goods-carousel {
+  .ez-goods-carousel-header {
+    .ez-goods-one-row-col-card-body-title {
+      font-size: 1rem!important;      
+    }
+  }
+}
+}

@@ -1,0 +1,111 @@
+body {
+  background-color: #563e91 !important;
+}
+
+
+.top-nav-collapse {
+    background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #563e91 !important;
+    }
+}
+
+.hm-gradient .full-bg-img {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+.ez-header-text,.ez-header-subtext,.ez-header-call-me
+{
+	color: rgba(57,51,162,1);
+	
+}
+
+.ez-header-top-subtext,
+.ez-header-bottom-text,
+.ez-header-bottom-subtext {
+	text-transform: uppercase;
+}
+
+.ez-header-text-span,
+.ez-header-bottom-subtext {
+	text-shadow: 1px 1px 3px rgba(57,51,162, 1)!important;
+}
+
+.ez-soc-btn {
+	z-index: 1100;
+}
+.ez-soc-btn-vk {
+	font-size: 0.85rem;
+    background-color: rgba(76,117,163,0.35)!important;
+}
+
+
+#navbarTogglerCL40 a {
+  text-transform: uppercase;
+}
+
+.ez-flipclock {
+  color: white;
+  background-color: #563e91 !important;
+  font-family: Roboto; /* Comfortaa; */
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem 0; }
+  .ez-flipclock .ez-flipclock-row.ez-flipclock-row-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.75rem;
+    padding-bottom: 0; }
+    .ez-flipclock .ez-flipclock-row.ez-flipclock-row-header h5 {
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin-bottom: 0; }
+  .ez-flipclock .ez-flipclock-row.ez-flipclock-row-header-rest {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0; }
+    .ez-flipclock .ez-flipclock-row.ez-flipclock-row-header-rest h5 {
+      /* font-family: Marck Script; */
+      font-family: Roboto;
+      font-size: 1.7rem;
+      font-weight: 300;
+      margin-bottom: 0; }
+  .ez-flipclock .ez-flipclock-row.ez-flipclock-row-body .ez-flipclock-clock {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.75rem;
+    padding-bottom: 0; }
+    .ez-flipclock .ez-flipclock-row.ez-flipclock-row-body .ez-flipclock-clock.flip-clock-wrapper .flip-clock-divider .flip-clock-label {
+      color: white !important; }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-col-icon {
+    font-size: 2.8rem; }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-kachest .ez-trigger-dover-col-icon {
+    background-color: rgba(255, 187, 51, 0.85); }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-brand .ez-trigger-dover-col-icon {
+    background-color: rgba(51, 181, 229, 0.55); }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-tseny .ez-trigger-dover-col-icon {
+    background-color: rgba(170, 102, 204, 0.55); }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-dostavka .ez-trigger-dover-col-icon {
+    background-color: rgba(43, 187, 173, 0.55); }
+  .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card .card-body {
+    padding-top: .75rem;
+    padding-bottom: 0; }
+    .ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card .card-body .card-text {
+      text-transform: none; }
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .ez-flipclock-row-header h5 {
+    font-size: 0.85rem !important; } }

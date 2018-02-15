@@ -1,0 +1,231 @@
+body {
+  background-color: #563e91 !important; }
+
+.top-nav-collapse {
+  background-color: #563e91 !important; }
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important; }
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important; } }
+.hm-gradient .full-bg-img {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%); }
+
+.ez-header-text, .ez-header-subtext, .ez-header-call-me {
+  color: #3933a2; }
+
+.ez-header-top-subtext,
+.ez-header-bottom-text,
+.ez-header-bottom-subtext {
+  text-transform: uppercase; }
+
+.ez-header-text-span,
+.ez-header-bottom-subtext {
+  text-shadow: 1px 1px 3px #3933a2 !important; }
+
+.ez-soc-btn {
+  z-index: 1100; }
+
+.ez-soc-btn-vk {
+  font-size: 0.85rem;
+  background-color: rgba(76, 117, 163, 0.35) !important; }
+
+#navbarTogglerCL40 a {
+  text-transform: uppercase; }
+
+.ez-flipclock {
+  color: white;
+  background-color: #563e91 !important;
+  font-family: Roboto;
+  /* Comfortaa; */
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.75rem;
+  padding-bottom: 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-header h5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-header-rest {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-header-rest h5 {
+  /* font-family: Marck Script; */
+  font-family: Roboto;
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-body .ez-flipclock-clock {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.75rem;
+  padding-bottom: 0; }
+
+.ez-flipclock .ez-flipclock-row.ez-flipclock-row-body .ez-flipclock-clock.flip-clock-wrapper .flip-clock-divider .flip-clock-label {
+  color: white !important; }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-col-icon {
+  font-size: 2.8rem; }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-kachest .ez-trigger-dover-col-icon {
+  background-color: rgba(255, 187, 51, 0.85); }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-brand .ez-trigger-dover-col-icon {
+  background-color: rgba(51, 181, 229, 0.55); }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-tseny .ez-trigger-dover-col-icon {
+  background-color: rgba(170, 102, 204, 0.55); }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card.ez-trigger-dover-card-dostavka .ez-trigger-dover-col-icon {
+  background-color: rgba(43, 187, 173, 0.55); }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card .card-body {
+  padding-top: .75rem;
+  padding-bottom: 0; }
+
+.ez-flipclock .ez-trigger-dover-col .ez-trigger-dover-card .card-body .card-text {
+  text-transform: none; }
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .ez-flipclock-row-header h5 {
+    font-size: 0.85rem !important; } }
+#formZakazSimple.ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card {
+  background-color: transparent; }
+
+.ez-form-zakaz-simpe-card-body-form label {
+  color: white; }
+
+.ez-form-zakaz-simpe-card-btn {
+  color: white !important;
+  border-color: white !important; }
+
+.ez-form-zakaz-simpe-card-btn i,
+.ez-form-zakaz-simpe-card-btn svg {
+  font-size: 1.5rem !important; }
+
+.ez-work-schema {
+  padding: 0 1.5rem; }
+
+.ez-form-zakaz-simpe {
+  color: white;
+  font-family: Comfortaa;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem 0; }
+  .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section {
+    border-radius: 0.5rem; }
+    .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form {
+      background-color: rgba(209, 63, 169, 0.9) !important;
+      font-family: Comfortaa;
+      font-weight: 400;
+      border-radius: 0.5rem; }
+      .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-header {
+        border-bottom: 1px solid white; }
+        .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-header .ez-form-zakaz-simpe-card-header-text h5 {
+          font-weight: 700;
+          text-transform: uppercase; }
+      .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body {
+        padding-top: 0.5rem; }
+        .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form i, .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form svg {
+          font-size: 1.75rem; }
+        .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form label {
+          font-family: Roboto, sans-serif;
+          font-size: 1rem; }
+        .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form-req::after {
+          content: "*";
+          font-family: Comfortaa;
+          font-size: 2rem;
+          color: white;
+          position: absolute;
+          top: 0;
+          right: 1rem;
+          padding: 0.3rem; }
+        .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-btn {
+          color: white;
+          border-color: white;
+          padding: 0.75rem; }
+          .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-btn i, .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-btn svg {
+            color: white;
+            font-size: 1.25rem;
+            margin-right: 1rem; }
+          .ez-form-zakaz-simpe .ez-form-zakaz-simpe-con .ez-form-zakaz-simpe-section .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-btn span {
+            color: white; }
+
+/* .ez-form-zakaz section#formZakazSection.form-dark.z-depth-4.ez-form-zakaz form#formZakaz div.card.card-image div.text-white.rgba-stylish-strong.py-5.px-5.ez-form-zakaz-card-wrapper div.md-form.ez-form-zakaz-form.ez-car-autocompl-form.ez-car-autocompl-form-generation input#formZakazCarGeneration.form-control.mdb-autocomplete.ez-car-autocompl-input */
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .ez-form-zakaz .ez-form-zakaz-form input,
+  .ez-car-autocompl-input,
+  .ez-form-zakaz-form.ez-form-zakaz-form-req input {
+    font-size: 1rem !important; }
+
+  .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form-req::after,
+  .ez-form-zakaz .ez-form-zakaz-form.ez-form-zakaz-form-req::after {
+    font-size: 1.5rem; }
+
+  .ez-form-zakaz-simpe .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form label,
+  .ez-form-zakaz .ez-form-zakaz-header {
+    font-size: 0.9rem !important; }
+
+  .ez-form-zakaz .ez-form-zakaz-header .ez-form-zakaz-header-text .ez-form-zakaz-header-text-during {
+    font-size: 0.6rem;
+    font-style: italic;
+    margin-top: 0.5rem; }
+
+  .ez-form-zakaz .ez-form-zakaz-btn {
+    font-size: 0.85rem; }
+
+  .ez-form-zakaz .ez-form-zakaz-btn i, .ez-form-zakaz .ez-form-zakaz-btn svg {
+    font-size: 1.25rem;
+    margin-right: 1.5rem; }
+
+  .ez-trigger-dover-row.ez-trigger-dover-row-header h5,
+  .ez-work-schema-row.ez-work-schema-row-header h5 {
+    font-size: 1rem !important; }
+
+  .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-header .ez-form-zakaz-simpe-card-header-text h5 {
+    font-size: 1rem; }
+
+  .ez-footer .ez-footer-contact .ez-footer-contact-body .ez-footer-contact-body-bank_card_all img.img-fluid {
+    width: 70%; }
+
+  .ez-footer .footer-copyright .container-fluid {
+    font-size: 0.6rem !important; }
+
+  /* ------------------------------------------------------------------------ */
+  .ez-header-addresse .ez-header-addresse-post,
+  .ez-header-addresse .ez-header-addresse-phone,
+  .ez-header-addresse .ez-header-addresse-time {
+    font-size: 0.7rem; } }
+@media (max-width: 360px) {
+  .ez-form-zakaz .ez-form-zakaz-btn,
+  .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn {
+    font-size: 0.65rem; }
+
+  .ez-form-zakaz .ez-form-zakaz-btn i,
+  .ez-form-zakaz .ez-form-zakaz-btn svg,
+  .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn i,
+  .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn svg {
+    font-size: 1rem !important;
+    margin-right: 1.25rem !important; } }
+
+/*# sourceMappingURL=ez-app.css.map */

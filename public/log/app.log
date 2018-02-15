@@ -1,0 +1,464 @@
+
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:21:28
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Фильтры воздушные
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = b3vux4i4yfWMFdCRORHmq48rmh6Wg0
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Тимофей
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(809)809-80-98
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID клиента = 34
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 39
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=34
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=2
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 192
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-192
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос добавление комментария для заказа выполнен с ошибкой:
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Текст запроса: insert into ez_comments(id,own,obj,obj_id,cmp) values (NULL,'CLI','ORD',192,Тестовый комментарий)
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'комментарий)' at line 1
+02.08.18 12:21:28 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Код ошибки: -2501
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:24:09
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Фары в сборе
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = oiFBZVBvcBPRElxFbprDHsViwQIGMI
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Митяй
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(908)098-08-09
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN789877890809
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Считаем, что в БД клиента нету
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Создаем нового клиента
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос на добавление клиента выполнен успешно
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - В таблицу EZ_CLIENTS добавлен клиент с ID = 35
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN789877890809
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 0
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного автомобиля определен: 40
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=35
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=0
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 193
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-193
+02.08.18 12:24:09 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:24:10 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос добавление комментария для заказа выполнен с ошибкой:
+02.08.18 12:24:10 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Текст запроса: insert into ez_comments(id,own,obj,obj_id,cmp) values (NULL,'CLI','ORD',193,'Тестовый комментарий')
+02.08.18 12:24:10 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Unknown column 'cmp' in 'field list'
+02.08.18 12:24:10 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Код ошибки: -2501
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:24:24
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Фары в сборе
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = oQUyy6dXfit0dWaQteO5iSA3pjO0Uk
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Тимофей
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(809)809-80-98
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID клиента = 34
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 39
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=34
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=3
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 194
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-194
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос добавление комментария для заказа выполнен с ошибкой:
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Текст запроса: insert into ez_comments(id,own,obj,obj_id,cmp) values (NULL,'CLI','ORD',194,'Тестовый комментарий')
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Unknown column 'cmp' in 'field list'
+02.08.18 12:24:24 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Код ошибки: -2501
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:25:02
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Амортизаторы
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = myr9iaBvFzCxp9HlIWEotyFYphhSM7
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Тимофей
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(809)809-80-98
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID клиента = 34
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 39
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=34
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=4
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 195
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-195
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->year=2018
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->month=2
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->day=8
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->hour=12
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->minute=25
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->second=2
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfMonth=2
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfYear=6
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->daysInMonth=28
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Сегодня рабочий день - dayOfWeek=4
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало рабочего дня = 2018-02-08 10:00:00
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание рабочего дня = 2018-02-08 17:00:00
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало перерыва (break) = 2018-02-08 13:00:00
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание перерыва = 2018-02-08 14:00:00
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Заказ сделан ДА в рабочее время = 12:25:02
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Завершаем процедуру. Возвращаем значение result_code = OK
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - orderInWorkTime = OK
+02.08.18 12:25:02 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - errMsgS=Уважаемый Тимофей, Ваш заказ принят!<br>Оператор свяжется с Вами<br>в течении 15 минут!<br>Номер Вашего заказа: 180208-000-195<span class='animated rotateIn infinite'><br>Скидка для Вашего заказа составляет <span class='ez-form-zakaz-color-red'>10%</span></span>!<br><br>Благодарим за обращение к нам!
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:26:23
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Ремкомплект ГРМ
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = TjNb6bnQjGMnFd28EUP38AxluWaaGe
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Тимофей
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(809)809-80-98
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID клиента = 34
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 39
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=34
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=5
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - количество заказов за час превысило допустимое
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Уважаемый Тимофей!<br>Ваш заказ не может быть принят.<br>Количество сделанных Вами заказов превысило допустимое за промежуток времени.<br><br>Пожалуйста, попробуйте позже.Количество заказов в течении часа 5
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - 
+02.08.18 12:26:23 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Код ошибки: -2005
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:26:39
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Фары в сборе
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Тестовый комментарий
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = YTHEDa6WyiZDUK9PxrxIR1vzQ9sFP9
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Сидор
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(809)809-80-98
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Считаем, что в БД клиента нету
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Создаем нового клиента
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос на добавление клиента выполнен успешно
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - В таблицу EZ_CLIENTS добавлен клиент с ID = 36
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:26:39 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 0
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного автомобиля определен: 41
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=36
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=0
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 196
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-196
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->year=2018
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->month=2
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->day=8
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->hour=12
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->minute=26
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->second=40
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfMonth=2
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfYear=6
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->daysInMonth=28
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Сегодня рабочий день - dayOfWeek=4
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало рабочего дня = 2018-02-08 10:00:00
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание рабочего дня = 2018-02-08 17:00:00
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало перерыва (break) = 2018-02-08 13:00:00
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание перерыва = 2018-02-08 14:00:00
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Заказ сделан ДА в рабочее время = 12:26:40
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Завершаем процедуру. Возвращаем значение result_code = OK
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - orderInWorkTime = OK
+02.08.18 12:26:40 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - errMsgS=Уважаемый Сидор, Ваш заказ принят!<br>Оператор свяжется с Вами<br>в течении 15 минут!<br>Номер Вашего заказа: 180208-000-196<span class='animated rotateIn infinite'><br>Скидка для Вашего заказа составляет <span class='ez-form-zakaz-color-red'>10%</span></span>!<br><br>Благодарим за обращение к нам!
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:57:55 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:57:56
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Комментарий №1
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = GiRg7fsznZBVCOqbGXrkVQk1jT1ywK
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Леха
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(876)869-79-79
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Считаем, что в БД клиента нету
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Не определен ID клиента. Создаем нового клиента
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Запрос на добавление клиента выполнен успешно
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - В таблицу EZ_CLIENTS добавлен клиент с ID = 37
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 0
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного автомобиля определен: 42
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=37
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=0
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 197
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-197
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->year=2018
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->month=2
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->day=8
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->hour=12
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->minute=57
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->second=56
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfMonth=2
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfYear=6
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->daysInMonth=28
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Сегодня рабочий день - dayOfWeek=4
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало рабочего дня = 2018-02-08 10:00:00
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание рабочего дня = 2018-02-08 17:00:00
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало перерыва (break) = 2018-02-08 13:00:00
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание перерыва = 2018-02-08 14:00:00
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Заказ сделан ДА в рабочее время = 12:57:56
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Завершаем процедуру. Возвращаем значение result_code = OK
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - orderInWorkTime = OK
+02.08.18 12:57:56 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - errMsgS=Уважаемый Леха, Ваш заказ принят!<br>Оператор свяжется с Вами<br>в течении 15 минут!<br>Номер Вашего заказа: 180208-000-197<span class='animated rotateIn infinite'><br>Скидка для Вашего заказа составляет <span class='ez-form-zakaz-color-red'>10%</span></span>!<br><br>Благодарим за обращение к нам!
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - ----------------------- BEGIN -----------------------
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-conn.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-CONN - Included ez_file.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-CONN - mysqli_connect_errno=0
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-CONN - err_conn=0
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ez_file.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Exist YES - ez-time.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME-  ------------ BEGIN -------------------
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME- Included ez_file.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME- EZ-TIME- Exist YES - ../lib/carbon/Carbon.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME- Included ../lib/carbon/Carbon.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME- TEST:Carbon::now()->toDateTimeString() = 2018-02-08 12:59:32
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Included ../lib/carbon/Carbon.php
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор модальной формы: formModalId=modalFormCallMe
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Идентификатор формы заказа: formZakazId=zakazFormCallMe
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ - Наименование товара из карточки товара: zakazGoodName=Амортизаторы
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpReferer=http://carl-cl40-samurai.lav/
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttps=Данные недоступны
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvHttpUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteHost=SEREZH-PC
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteAddr=127.0.0.1
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - SERVER:srvRemoteUser=SEREZH-PC
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - HOST:hostByName=192.168.1.100
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  *** - ordComment=Комментарий №2
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Ключ заказа = Rf5XmXVAJTyzHJr1hQqGSuVkrQFQcW
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Значения переданные из формы заказа:
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Имя клиента: Леха
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Номер телефона клиента: +7(876)869-79-79
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN номер автомобиля: VIN89809809
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID клиента = 37
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CLIENT_CARS
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Поиск автомобиля для клиента в таблицу EZ_CLIENT_CARS по vin
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - VIN=VIN89809809
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен ID автомобиля для клиента: 42
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - BEGIN clientID=37
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Запрос выполнен
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - Количество заказов=1
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - stopOrdersHourlyCount=5
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - GET_CLIENT_ORDERS_HOURLY - END
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_CAR_ORDERS
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - ID созданного заказа определен: 198
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - Определен Номер заказа для клиента: 180208-000-198
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - EZ_COMMENTS
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->year=2018
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->month=2
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->day=8
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->hour=12
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->minute=59
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->second=32
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->dayOfWeek=4
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfMonth=2
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->weekOfYear=6
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- dt->daysInMonth=28
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Сегодня рабочий день - dayOfWeek=4
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало рабочего дня = 2018-02-08 10:00:00
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание рабочего дня = 2018-02-08 17:00:00
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Начало перерыва (break) = 2018-02-08 13:00:00
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Окончание перерыва = 2018-02-08 14:00:00
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Заказ сделан ДА в рабочее время = 12:59:32
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-TIME::checkOrderInWorkTime- Завершаем процедуру. Возвращаем значение result_code = OK
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - orderInWorkTime = OK
+02.08.18 12:59:32 ::: CL100=ML11 :: EZ-FORM-ZAKAZ -  - errMsgS=Уважаемый Леха, Ваш заказ принят!<br>Оператор свяжется с Вами<br>в течении 15 минут!<br>Номер Вашего заказа: 180208-000-198<span class='animated rotateIn infinite'><br>Скидка для Вашего заказа составляет <span class='ez-form-zakaz-color-red'>10%</span></span>!<br><br>Благодарим за обращение к нам!

@@ -1,0 +1,63 @@
+body {
+  background-color: #563e91 !important;
+}
+
+
+.top-nav-collapse {
+    background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #563e91 !important;
+    }
+}
+
+.hm-gradient .full-bg-img {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+.ez-header-text,.ez-header-subtext,.ez-header-call-me
+{
+	color: rgba(57,51,162,1);
+	
+}
+
+.ez-header-top-subtext,
+.ez-header-bottom-text,
+.ez-header-bottom-subtext {
+	text-transform: uppercase;
+}
+
+.ez-header-text-span,
+.ez-header-bottom-subtext {
+	text-shadow: 1px 1px 3px rgba(57,51,162, 1)!important;
+}
+
+.ez-soc-btn {
+	z-index: 1100;
+}
+.ez-soc-btn-vk {
+	font-size: 0.85rem;
+    background-color: rgba(76,117,163,0.35)!important;
+}
+
+#navbarTogglerCL40 a {
+  text-transform: uppercase;
+}
+
+@import "ez-glitch";
+@import "ez-modal";
+@import "ez-forms";
+@import "ez-header";
+@import "ez-flipclock";
+@import "ez-goods-one";
+@import "ez-trigger-dover";
+@import "ez-footer";
+@import "ez-button-up";

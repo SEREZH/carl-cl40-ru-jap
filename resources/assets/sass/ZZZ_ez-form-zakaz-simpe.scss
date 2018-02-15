@@ -1,0 +1,152 @@
+.ez-form-zakaz-simpe-con {
+    .ez-form-zakaz-simpe-section{
+        //border-radius: 0.5rem;
+        .ez-form-zakaz-simpe-form{
+            background-color: transparent!important;
+            font-family: Comfortaa;
+            font-weight: 400;
+            border-radius: 0.5rem;
+            .ez-form-zakaz-simpe-card{
+                background-color: transparent;
+                .ez-form-zakaz-simpe-card-header{
+                    border-bottom: 1px solid white;
+                    .ez-form-zakaz-simpe-card-header-text{
+                        h5{
+                            font-weight: 700;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .ez-form-zakaz-simpe-card-body{
+                    padding-top: 0.5rem;
+                    .ez-form-zakaz-simpe-card-body-form{
+                        i, svg {
+                            color: white;
+                            font-size: 1.75rem;
+                        }
+                        label {
+                            color: white;
+                            font-family: Roboto, sans-serif;
+                            font-size: 1rem;
+                        }
+                    }
+                    .ez-form-zakaz-simpe-card-body-form-req{
+                        &::after {
+                            content: "*";
+                            font-family: Comfortaa;
+                            font-size: 2rem;
+                            color: white;
+                            position: absolute;
+                            top: 0;
+                            right: 1rem;
+                            padding: 0.3rem;
+                        }
+                    }
+                    .ez-form-zakaz-simpe-card-btn {
+                        color: white;
+                        border-color: white;
+                        padding: 0.75rem;
+                        i, svg {
+                            color: white;
+                            font-size: 1rem;
+                            margin-right: 1rem;
+                        }
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    //.ez-form-zakaz .ez-form-zakaz-form input#formZakazCarMark.form-control.mdb-autocomplete.ez-car-autocompl-input
+    .ez-form-zakaz .ez-form-zakaz-form input,
+    .ez-car-autocompl-input,
+    .ez-form-zakaz-form.ez-form-zakaz-form-req input {
+        font-size: 1rem!important;
+    }
+    .ez-form-zakaz-simpe-form .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form-req::after,
+    .ez-form-zakaz .ez-form-zakaz-form.ez-form-zakaz-form-req::after {
+        font-size: 1.5rem;
+    }
+
+    .ez-form-zakaz-simpe .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-body .ez-form-zakaz-simpe-card-body-form label,
+    .ez-form-zakaz .ez-form-zakaz-header {
+        font-size: 0.9rem!important;
+    }
+    .ez-form-zakaz .ez-form-zakaz-header .ez-form-zakaz-header-text .ez-form-zakaz-header-text-during {
+        font-size: 0.6rem;
+        font-style: italic;
+        margin-top: 0.5rem;
+    }
+    .ez-form-zakaz .ez-form-zakaz-btn {
+        font-size: 0.85rem;
+    }
+    .ez-form-zakaz .ez-form-zakaz-btn i, .ez-form-zakaz .ez-form-zakaz-btn svg {
+        font-size: 1.25rem;
+        margin-right: 1.5rem;
+    }
+    
+    .ez-trigger-dover-row.ez-trigger-dover-row-header h5,
+    .ez-work-schema-row.ez-work-schema-row-header h5 {
+        font-size: 1rem!important;
+    }
+    .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-header .ez-form-zakaz-simpe-card-header-text h5 {
+        font-size: 1rem;
+    }
+    /* ------------------------------------------------------------------------ */
+    .ez-header-addresse .ez-header-addresse-post, 
+    .ez-header-addresse .ez-header-addresse-phone,
+    .ez-header-addresse .ez-header-addresse-time
+    {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 769px) {
+    #formZakazSimple.ez-form-zakaz-simpe-form {
+        .ez-form-zakaz-simpe-card-body-form {
+            margin-bottom: 0!important;
+            i,svg {
+                    font-size: 1.5rem;
+                   }
+        }    
+    }
+    .ez-form-zakaz-simpe-card {
+        .ez-form-zakaz-simpe-card-header{
+            .ez-form-zakaz-simpe-card-header-text {
+                h5  {
+                    font-size: 1rem!important;
+                }
+            }    
+        }
+    }
+}
+
+ 
+
+
+@media (max-width: 360px) {
+    .ez-form-zakaz .ez-form-zakaz-btn,
+    .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn
+    {
+            font-size: 0.65rem;
+    }
+    .ez-form-zakaz .ez-form-zakaz-btn i, 
+    .ez-form-zakaz .ez-form-zakaz-btn svg,
+    .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn i, 
+    .ez-form-zakaz-simpe-card .ez-form-zakaz-simpe-card-btn svg
+    {
+            font-size: 1rem!important;
+            margin-right: 1.25rem!important;
+    }    
+}        
+
+
+
+

@@ -1,0 +1,162 @@
+.ez-header-addresse {
+    font-family: Comfortaa;
+    font-size: 0.9rem!important;
+    font-weight: 300;       
+    color: white;
+    margin: 0;    
+    .ez-header-addresse-post,
+    .ez-header-addresse-phone,
+    .ez-header-addresse-time
+    {
+        font-size: 0.9rem!important;
+        margin-top: 0.15rem;
+        margin-bottom: 0.25rem;
+        p {
+            margin: 0!important;
+        }
+        i,svg {
+            font-size: 0.9rem;
+        }
+        a {
+           color: white!important;
+        }
+        .ez-soc-icon {
+            font-size: 1.1rem;      
+            text-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        }
+    }
+}
+
+
+.ez-button-top-callme{
+    .ez-button-top-callme-btn {
+        color:white;
+        border-color: white!important;
+        i,svg {
+            font-size: 1.25rem;
+        }
+        span {
+            color:white;
+            font-size: 1.25rem;
+            padding-left: 1rem;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .ez-header-addresse .ez-header-addresse-post, .ez-header-addresse .ez-header-addresse-phone, .ez-header-addresse .ez-header-addresse-time {
+        font-size: 0.7rem !important;
+    }
+    .ez-navbar-collapse-item {
+        font-size: 0.85rem !important;      
+    }
+}
+
+
+@media (max-width: 767px) {
+    .ez-navbar {
+        padding-left: 0;
+    }
+    .ez-form-zakaz-simpe-card-body-row {
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+    .ez-form-zakaz-simpe-card-header {
+        display: none;
+    }
+    .ez-form-zakaz-simpe-card-body-form {
+      label {
+        font-size: 0.8rem!important;
+      }  
+    } 
+    .ez-navbar-brand {
+        visibility: collapse!important;
+        display: none;
+        .ez-navbar-brand-a {
+            margin-left: 0!important;
+        }
+    }    
+    .ez-header-top-text {
+        .ez-header-text-span {
+            font-size: 2.5rem!important;
+        }
+    }
+    .ez-header-bottom-subtext {
+        font-size: 1.25rem!important;
+    } 
+    .ez-header-bottom-text-span {
+        font-size: 1.2rem!important;   
+    }
+    .ez-header-addresse {
+        font-family: Comfortaa;
+        font-size: 0.6rem!important;
+        margin-left: 0 !important;
+        .ez-header-addresse-post,
+        .ez-header-addresse-phone,
+        .ez-header-addresse-time
+        {
+            font-size: 0.7rem!important;
+            margin-top: 0.15rem;
+            margin-bottom: 0.25rem;
+            p {
+                margin: 0!important;
+            }
+            i,svg {
+                font-size: 0.7rem;
+            }
+            a {
+               color: white!important;
+            }
+            .ez-soc-icon {
+                font-size: 1.1rem;      
+            }
+        }
+    }
+}
+
+@media (max-width: 415px) {
+    .ez-header-bottom-subtext {
+        font-size: 0.85rem !important;
+    }
+    .ez-header-top-subtext {
+        font-size: 0.7rem !important;      
+    }
+    .ez-header-addresse {
+        font-size: 0.6rem!important;
+        .ez-header-addresse-post,
+        .ez-header-addresse-phone,
+        .ez-header-addresse-time
+        {
+            font-size: 0.6rem!important;
+            margin-top: 0.15rem;
+            margin-bottom: 0.25rem;
+            i,svg {
+                font-size: 0.6rem;
+            }
+            .ez-soc-icon {
+                font-size: 1.1rem;      
+            }
+        }
+    }
+}   
+
+
+@media (max-width: 361px) {
+    .ez-header-addresse {
+        font-size: 0.5rem!important;
+        .ez-header-addresse-post,
+        .ez-header-addresse-phone,
+        .ez-header-addresse-time
+        {
+            font-size: 0.5rem!important;
+            margin-top: 0.1rem;
+            margin-bottom:0.1rem;
+            i,svg {
+                font-size: 0.6rem;
+            }
+            .ez-soc-icon {
+                font-size: 0.6rem;      
+            }
+        }
+    }    
+}
